@@ -18,7 +18,7 @@ typealias TeadsUIViewMPNativeAdRendering = UIView & MPNativeAdRendering
 
     var rendererSettings: MPAdapterTeadsNativeAdRendererSettings!
 
-    var adViewContainer: UIView?
+    public var adViewContainer: UIView?
 
     /// Publisher adView which is rendering.
     var adView: TeadsUIViewMPNativeAdRendering?
